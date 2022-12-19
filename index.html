@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+  </head>
+
+  <body>
+    <div class="mainContainer" id="box">
+      <div>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Type your city..."
+            id="searchCity"
+          />
+        </form>
+        <button class="searchButton" id="button">Search</button>
+        <button class="currentButton" id="buttonHere">Current</button>
+      </div>
+      <h1 id="city">
+        London
+      </h1>
+      <h2 ></h2>
+      <h5 class="date" id="oneDay"> Monday, 20:00 <h5>
+        <div class="container1">
+  <div class="container text-center">
+              <div class="row justify-content-between">
+                <div class="col-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="cloud"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M96 320c-53 0-96-43-96-96c0-42.5 27.6-78.6 65.9-91.2C64.7 126.1 64 119.1 64 112C64 50.1 114.1 0 176 0c43.1 0 80.5 24.3 99.2 60c14.7-17.1 36.5-28 60.8-28c44.2 0 80 35.8 80 80c0 5.5-.6 10.8-1.6 16c.5 0 1.1 0 1.6 0c53 0 96 43 96 96s-43 96-96 96H96zm-6.8 52c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3L89.2 372zm160 0c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3L249.2 372zm124.9 64.6L409.2 372c1.3-2.5 3.9-4 6.8-4s5.4 1.5 6.8 4l35.1 64.6c4.1 7.5 6.2 15.8 6.2 24.3v3c0 26.5-21.5 48-48 48s-48-21.5-48-48v-3c0-8.5 2.1-16.9 6.2-24.3z"/></svg> 
+                  <h2> <span id="temp20">20</span> 
+                     <a href="#" id="tempC"> °C</a> <span>|</span>
+                    <a href="#"  id="tempF">°F</a>
+                  </h2>
+                  <span id="weatherDescription"></span>
+                </div>
+                <div class="col-4">
+                  <ul>
+                    <li>Wind: <span id="wind"> 10</span>km/h</li>
+                    <li>Humidity: <span id="humidity">85%</span></li>
+                    <li>Precipitation: <span id="precipitation">85%</span></li>
+                  </ul>
+                </div> </div>
+  
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                      <div class="col">
+                        Tue
+                      </div>
+                      <div class="col">
+                        Wed
+                      </div>
+                      <div class="col">
+                        Thu
+                      </div>
+                      <div class="col">
+                          Fri
+                        </div>
+                        <div class="col">
+                            Sat
+                          </div>
+                          <div class="col">
+                              Sun
+                            </div>
+                    </div></div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
