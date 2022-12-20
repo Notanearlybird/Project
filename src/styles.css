@@ -68,3 +68,8 @@ h2 {
 a:visited {
   color: rgb(4, 21, 255);
 }
+.box {
+  margin: 70 px;
+  padding: 50px 50px 50px 50px;
+  color: #394a51;
+}
