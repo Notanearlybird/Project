@@ -61,3 +61,10 @@ h2 {
 .cloud {
   width: 20px;
 }
+.github {
+  text-decoration: none;
+  color: rgb(114, 116, 117);
+}
+a:visited {
+  color: rgb(4, 21, 255);
+}
